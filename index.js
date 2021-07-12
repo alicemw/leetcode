@@ -26,3 +26,15 @@ var twoSum = function(nums, target) {
         }
     }
 };
+/**
+ * @param {number} x
+ * @return {number}
+ */
+var reverse = function(x) {
+    let str = x + ''
+    let target = ''
+    for(let i=0;i<str.length;i++){
+        target +=str[str.length -1]
+    }
+    return target
+};
